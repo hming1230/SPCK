@@ -1,0 +1,32 @@
+
+p {
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: make the text bold */
+    text-align: center; /* Optional: center align the text */
+}
+
+.google-btn {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    width: 220px; /* or any width you need */
+    height: 30px; /* or any height you need */
+
+    &:hover {
+        background-color: #f0f0f0;
+        border-color: #bbb;
+    }
+
+    &:active {
+        background-color: #e0e0e0;
+        border-color: #aaa;
+    }
+}
