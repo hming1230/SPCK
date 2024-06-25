@@ -5,7 +5,7 @@ import {  signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/
 
 const emailinput = document.querySelector('#name')
 const passwordinput = document.querySelector('#password')
-const btn = document.querySelector('.book-btn')
+const btn = document.querySelector('#loginbtn')
 const dangkybtn = document.querySelector(".dangky")
 /// chuyen doi Jason sang obj
 // Import necessary functions from "./config"
@@ -22,7 +22,7 @@ const xulydangnhap = () => {
 
         alert("Signed in successfully!")
         /// 
-        widow.location.href = "./index.html"
+       window.location.href = "./index.html"
       })
       .catch((error) => {
         const errorCode = error.code;

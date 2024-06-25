@@ -7,7 +7,7 @@ btn.addEventListener("click", (event) => {
 
 const row = document.querySelector(".row-1");
 
-fetch("https://657e76623e3f5b189463bb26.mockapi.io/project/place", {
+fetch("https://657e76623e3f5b189463bb26.mockapi.io/project/special-package", {
   method: "GET",
   headers: {
     "content-type": "application/json",

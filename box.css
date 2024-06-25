@@ -30,17 +30,28 @@
     display: flex;
     justify-content: space-evenly;
 }
-
+.delete{
+    color: black;
+}
+.btn{
+    color: black;
+}
+.back1{
+    color: black;
+}
 button {
     background: #00d8ff;
     border: 1px solid #00d8ff;
     width: 100px;
-    height: 30px;
+    height: 40px;
     white-space: nowrap;
     text-align: center;
-    color: #fff;
+    color: black;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     border-radius: 5px;
 }
+button:hover {
+    background-color: #00c3e6; /* Darker blue on hover */
+  }
