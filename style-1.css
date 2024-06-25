@@ -62,7 +62,7 @@ color: white
   background: #00d8ff;
     border: 1px solid #00d8ff;
     width: 120px;
-    height: 50px;
+    height: 40px;
     white-space: nowrap;
     text-align: center;
     color: #fff;
@@ -113,4 +113,10 @@ color: white
 }
 #loginbtn{
   color: black;
+}
+#btnadd{
+  height: 40px
+}
+#btnchange{
+  height: 40px
 }
