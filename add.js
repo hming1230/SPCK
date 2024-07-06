@@ -1,10 +1,12 @@
+const btn = document.querySelector('.submit');
+const back = document.querySelector('.back');
+const inputname = document.querySelector('#name');
+const inputprice = document.querySelector('#price');
+const inputimage = document.querySelector('#image');
+const inputid = document.querySelector('#ID')
+
 document.addEventListener('DOMContentLoaded', () => {
-  const btn = document.querySelector('.btn');
-  const back = document.querySelector('.back');
-  const inputname = document.querySelector('#name');
-  const inputprice = document.querySelector('#price');
-  const inputimage = document.querySelector('#image');
-  const inputid = document.querySelector('#ID')
+
 
   btn.addEventListener('click', (e) => {
       e.preventDefault();
@@ -19,14 +21,14 @@ document.addEventListener('DOMContentLoaded', () => {
           alert('Please fill out all fields');
           return;
       }
-
+ 
       const newTask = {
           name: nameValue,
           price: priceValue,
-          image: imageValue
+          image: imageValue,
       };
 
-      fetch('https://657e76623e3f5b189463bb26.mockapi.io/project/special-package/${IDvalue}', {
+      fetch('https://657e76623e3f5b189463bb26.mockapi.io/project/special-package', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(newTask)

@@ -1,5 +1,6 @@
 
 .box {
+    color: white;
     position: relative; /* Để đẩy lớp .box lên phía trên */
     z-index: 1; /* Đảm bảo .box nằm trên lớp màu xanh */
     margin-top: 100px;
@@ -17,6 +18,7 @@
 
 }
 .submit{
+    color: white;
     width: 120px;
     height: 40px;
 }
@@ -31,13 +33,13 @@
     justify-content: space-evenly;
 }
 .delete{
-    color: black;
+    color: white
 }
 .btn{
-    color: black;
+    color: white
 }
 .back1{
-    color: black;
+    color: white
 }
 button {
     background: #00d8ff;
